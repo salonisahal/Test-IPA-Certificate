@@ -1,4 +1,4 @@
-# Test IPA Certificate — Screens & Navigation
+# Test IPA Certificate 
 
 ## How to run
 cd /home/hewlett/projects/frontendX_backend_merged/frontend_runs/run_5d255d52_20260710_054205/project
