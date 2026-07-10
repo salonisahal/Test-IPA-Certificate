@@ -12,7 +12,6 @@ npm install && npx expo start
 | Login | src/screens/LoginScreen.tsx | Email/password login with mock credentials and social placeholders. |
 | ForgotPassword | src/screens/ForgotPasswordScreen.tsx | Request password reset via email. |
 | Home | src/screens/HomeScreen.tsx | KPI snapshot, quick actions, recent activity list. |
-| Dashboard | src/screens/DashboardScreen.tsx | KPI metrics with daily/weekly/monthly filters. |
 | Features | src/screens/FeaturesScreen.tsx | Feature list with usage stats. |
 | FeatureDetail | src/screens/FeatureDetailScreen.tsx | Feature insights and activation toggle. |
 | Pricing | src/screens/PricingScreen.tsx | Plan selection with monthly/yearly toggle and confirmation. |
@@ -30,7 +29,7 @@ npm install && npx expo start
 - Home -> Contact (tap “Contact support” quick action)
 - Home -> Notifications (tap “Notification center” quick action)
 - Home -> Testimonials (tap “Customer stories” quick action)
-- Home -> Dashboard (tap any recent activity row)
+- Home -> Notifications (tap any recent activity row)
 - Features -> FeatureDetail (tap a feature card)
 - Resources -> ResourceDetail (tap a resource card)
 - Profile -> Contact (tap “Edit profile”)

@@ -3,16 +3,15 @@ import { Activity, Feature, KPI, NotificationItem, Plan, ResourceItem, Testimoni
 export const kpis: KPI[] = [
   { id: 'kpi-1', label: 'Customers', value: '1,248', trend: '+12%' },
   { id: 'kpi-2', label: 'Revenue', value: '$98.4k', trend: '+8%' },
-  { id: 'kpi-3', label: 'Projects', value: '312', trend: '+5%' },
-  { id: 'kpi-4', label: 'Engagement', value: '74%', trend: '+3%' },
-  { id: 'kpi-5', label: 'Uptime', value: '99.98%', trend: '+0.02%' },
+  { id: 'kpi-3', label: 'Engagement', value: '74%', trend: '+3%' },
+  { id: 'kpi-4', label: 'Uptime', value: '99.98%', trend: '+0.02%' },
 ];
 
 export const activities: Activity[] = [
   { id: 'act-1', title: 'Acme upgraded to Pro', subtitle: 'Billing update', time: '2h ago' },
   { id: 'act-2', title: 'New automation triggered', subtitle: 'Workflow: Onboarding', time: '4h ago' },
   { id: 'act-3', title: 'Weekly report generated', subtitle: 'Analytics', time: 'Yesterday' },
-  { id: 'act-4', title: 'New comment in Project Vega', subtitle: 'Collaboration', time: '2 days ago' },
+  { id: 'act-4', title: 'New comment in Workspace Vega', subtitle: 'Collaboration', time: '2 days ago' },
 ];
 
 export const features: Feature[] = [

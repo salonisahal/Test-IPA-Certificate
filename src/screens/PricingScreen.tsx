@@ -32,7 +32,7 @@ export default function PricingScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <HeaderBar title="Pricing" />
       <View style={styles.container}>
         <SegmentedTabs tabs={['Monthly', 'Yearly']} active={cycle} onChange={setCycle} />

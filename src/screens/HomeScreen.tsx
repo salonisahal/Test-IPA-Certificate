@@ -64,7 +64,7 @@ export default function HomeScreen() {
   ), [navigation, refreshing]);
 
   const handleActivityPress = (id: string) => {
-    navigation.navigate('MainTabs', { screen: 'Dashboard' });
+    navigation.navigate('Notifications');
   };
 
   const handleRefresh = () => {
@@ -74,7 +74,7 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <HeaderBar title="Home" />
       <FlatList
         data={activities}

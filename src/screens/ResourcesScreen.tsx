@@ -22,7 +22,7 @@ export default function ResourcesScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <HeaderBar title="Resources" />
       <View style={styles.container}>
         <View style={styles.searchWrap}>

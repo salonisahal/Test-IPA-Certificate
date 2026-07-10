@@ -13,7 +13,6 @@ import { EmptyState } from '../components/EmptyState';
 const metricRows = [
   { id: 'rev', label: 'Revenue', value: '$98.4k', progress: 0.76 },
   { id: 'users', label: 'Users', value: '12.4k', progress: 0.64 },
-  { id: 'projects', label: 'Projects', value: '312', progress: 0.51 },
   { id: 'tasks', label: 'Tasks', value: '1,492', progress: 0.68 },
   { id: 'eng', label: 'Engagement', value: '74%', progress: 0.82 },
 ];
@@ -39,7 +38,7 @@ export default function DashboardScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <HeaderBar title="Dashboard" />
       <View style={styles.container}>
         <View style={styles.topRow}>

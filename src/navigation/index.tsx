@@ -6,7 +6,6 @@ import { NavigatorScreenParams } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
 import { colors } from '../theme/colors';
 import HomeScreen from '../screens/HomeScreen';
-import DashboardScreen from '../screens/DashboardScreen';
 import FeaturesScreen from '../screens/FeaturesScreen';
 import FeatureDetailScreen from '../screens/FeatureDetailScreen';
 import PricingScreen from '../screens/PricingScreen';
@@ -22,7 +21,6 @@ import NotFoundScreen from '../screens/NotFoundScreen';
 
 export type TabParamList = {
   Home: undefined;
-  Dashboard: undefined;
   Features: undefined;
   Pricing: undefined;
   Resources: undefined;
@@ -68,7 +66,6 @@ function MainTabs() {
         tabBarIcon: ({ color, size }) => {
           const iconMap: Record<string, keyof typeof Ionicons.glyphMap> = {
             Home: 'home',
-            Dashboard: 'bar-chart',
             Features: 'sparkles',
             Pricing: 'pricetags',
             Resources: 'library',
@@ -80,7 +77,6 @@ function MainTabs() {
       })}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Dashboard" component={DashboardScreen} />
       <Tab.Screen name="Features" component={FeaturesScreen} />
       <Tab.Screen name="Pricing" component={PricingScreen} />
       <Tab.Screen name="Resources" component={ResourcesScreen} />

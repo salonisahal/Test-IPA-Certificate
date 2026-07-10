@@ -18,7 +18,7 @@ export default function ResourceDetailScreen() {
   if (!resource) {
     return (
       <SafeAreaView style={styles.safe}>
-        <StatusBar style="dark" />
+        <StatusBar style="light" />
         <EmptyState title="Resource missing" subtitle="Return to the resources list." />
       </SafeAreaView>
     );
@@ -26,7 +26,7 @@ export default function ResourceDetailScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <View style={styles.container}>
         <Text style={styles.title}>{resource.title}</Text>
         <Text style={styles.category}>{resource.category}</Text>

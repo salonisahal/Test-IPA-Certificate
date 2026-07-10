@@ -26,7 +26,7 @@ export default function NotificationsScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <View style={styles.header}>
         <Text style={styles.title}>Notifications</Text>
         <Text style={styles.count}>{unreadCount} unread</Text>

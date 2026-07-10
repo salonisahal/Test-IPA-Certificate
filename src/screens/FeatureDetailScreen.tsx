@@ -18,7 +18,7 @@ export default function FeatureDetailScreen() {
   if (!feature) {
     return (
       <SafeAreaView style={styles.safe}>
-        <StatusBar style="dark" />
+        <StatusBar style="light" />
         <EmptyState title="Feature not found" subtitle="Please return to the feature list." />
       </SafeAreaView>
     );
@@ -26,7 +26,7 @@ export default function FeatureDetailScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <View style={styles.container}>
         <Text style={styles.title}>{feature.title}</Text>
         <Text style={styles.summary}>{feature.summary}</Text>

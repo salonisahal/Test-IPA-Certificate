@@ -15,7 +15,7 @@ export default function FeaturesScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <HeaderBar title="Features" />
       <FlatList
         data={features}

@@ -20,7 +20,7 @@ export default function TestimonialsScreen() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <View style={styles.header}>
         <Text style={styles.title}>Customer stories</Text>
         <Text style={styles.subtitle}>Swipe to explore how teams grow with us.</Text>
